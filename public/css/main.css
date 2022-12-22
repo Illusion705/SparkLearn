@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: Nunito;
+}
+
+body {
+  background: #2a2a32;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  min-height: calc(100vh - 60px);
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background: #1c1c21;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#header-logo {
+  font-family: "Train One";
+  text-decoration: none;
+  font-weight: bold;
+  background: linear-gradient(#4ad37f, #4560d9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 33px;
+  text-align: center;
+  transition: background 500ms;
+  transition: font-size 500ms;
+  transform: translateY(-5px);
+  width: 35vw;
+}
+
+#header-logo:hover {
+  font-size: 36px;
+}
+
+#header-links {
+  width: 65vw;
+  height: 100%;
+}
+
+#header-main-links, #header-auth-links {
+  display: flex;
+  height: 100%;
+  justify-content: space-around;
+}
+
+#header-main-links > a, #header-auth-links > a {
+  font-size: 20px;
+  height: 100%;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4560d9;
+  transition: background 500ms, color 500ms;
+}
+
+#header-main-links > a:hover, #header-auth-links > a:hover {
+  background: #26262c;
+  color: white;
+}
