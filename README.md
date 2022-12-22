@@ -3,7 +3,7 @@
 
 ## Overview
 
-As the website Quizlet has grown and been updated, many of its features, including some of its most useful ones such as Learn and Write, have become locked behind a paywall. The goal of SparkLearn is to make a completely free website for students to study similar to Quizlet.
+As the some learning websites have grown and been updated, many of their features, including some of their most useful ones, become locked behind paywalls. The goal of SparkLearn is to make a completely free website for students to study using flashcards.
 
 ## Contributing
 
